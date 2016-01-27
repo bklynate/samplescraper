@@ -1,0 +1,32 @@
+# puts data.at_css('.dates').text
+# puts data.at_css('.doors').text
+# puts data.at_css('.price-range').text.strip
+# concerts[0].at_css('.headliners.summary').text.strip
+
+
+# concerts[1].at_css('.custom').nil?
+
+# concerts = data.css('.tfly-org-id-4')
+
+# concerts[1].at_css('.price-range').text
+
+
+concerts.each do |concert|
+	puts concert.at_css('.headliners.summary').text.strip
+
+  if !concert.at_css('.doors').nil?
+    puts concert.at_css('.doors').text.strip
+  else
+    puts "No Data"
+  end
+
+  puts concert.at_css('.dates').text.strip
+
+  if !concert.at_css('.custom').nil?
+    puts "SOLD OUT!"
+  else
+    puts concert.at_css('.price-range').text.strip
+  end
+
+  puts ""
+end
