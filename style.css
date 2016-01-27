@@ -1,0 +1,62 @@
+@import url("reset.css");
+
+body {
+  font-family: 16px 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+/*fieldset {
+  width: 600px;
+  margin: 0 auto;
+}
+
+dl {
+  padding: 0.5em;
+}
+
+.comment {
+  float: right;
+}
+
+dt {
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: right;
+  font-weight: normal;
+
+}
+
+dd {
+  margin: 0 0 0 105px;
+  padding: 0 0 0.5em 0;
+}
+
+ul {
+  list-style: none;
+  font-size: 14px;
+}
+
+h2 {
+  padding: 25px 0px 7px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  height: 25px;
+  font: 17px 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: auto;
+  resize: vertical;
+}
+input[type="submit"],
+input[type="reset"] {
+    margin-left: 7px;
+}
+*/
