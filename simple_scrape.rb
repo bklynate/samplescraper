@@ -10,6 +10,10 @@ get '/' do
   erb :shows
 end
 
+# url = "http://www.930.com/concerts/"
+# data = Nokogiri::HTML(open(url))
+# concerts = data.css('.tfly-org-id-4')
+
 # concerts.each do |concert|
 #   puts concert.at_css('.headliners.summary').text.strip
 
