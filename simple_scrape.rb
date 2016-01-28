@@ -34,6 +34,4 @@ end
 #   puts ""
 # end
 
-
-
-
+# <%= concert.at_css('.headliners.summary a')[:href] %>
