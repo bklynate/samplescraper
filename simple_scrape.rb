@@ -34,4 +34,4 @@ end
 #   puts ""
 # end
 
-# <%= concert.at_css('.headliners.summary a')[:href] %>
+# <%= concert.at_css('.tfly-org-id-4 a')[:href] %>
