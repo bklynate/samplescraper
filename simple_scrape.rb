@@ -2,13 +2,14 @@ require 'rubygems'
 require 'sinatra'
 require 'nokogiri'
 require 'open-uri'
+require 'pry'
 
 get '/' do
   url = "http://www.930.com/concerts/"
   data = Nokogiri::HTML(open(url))
   @concerts = data.css('.tfly-org-id-4')
-
-  erb :shows
+  # binding.pry
+  erb :show
 end
 
 # url = "http://www.930.com/concerts/"
