@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source :rubygems
 ruby "2.1.5"
 gem 'sinatra'
 gem 'nokogiri'
